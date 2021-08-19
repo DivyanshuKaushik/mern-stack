@@ -1,0 +1,233 @@
+{
+    "services": [
+        {
+            "title": "Web Development",
+            "subtitle": "75% of web users admit to making judgments about a company’s credibility based on their website design.",
+            "img": "/images/services/web-development.jpg",
+            "url": "/web-development",
+            "highlight": "First Impression, Last Impression!",
+            "desc": [
+                "According to research, 75% of users revealed that they get an idea about the credibility of any organization on the basis of their visual design only. Website design is something that most of the users often focus while interacting with a brand. So, it’s crucial for you. A good design easily seeks the attention of customers.",
+                "Study shows that users quickly judge any business based on its visuals alone.It is essential for a website to be entirely tailored and customized for its target market. It is a platform for a certain type of audience that needs to be easy to navigate from one page to another, simple to operate with uniqueness in design."
+            ],
+            "offer": [
+                "UI/UX Design",
+                "Mobile Responsive Design",
+                "E-Commerce Website",
+                "CMS Development",
+                "Web Portal & Landing Pages",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "App Development",
+            "subtitle": "63% of millennials prefer to make purchases on mobile apps",
+            "img": "/images/services/app-development.jpg",
+            "url": "/app-development",
+            "highlight": "Stay Connected & Keep-Up with the Trend!",
+            "desc": [
+                "With Mobile Apps, keep yourself in the know at all times! With a user friendly app development, you can build services with drag and drop ease! Today, mobile apps have impacted the way users access the internet to perform various tasks.",
+                " The credit goes to mobile app technologies to improve features, functionalities, usability, etc. of a mobile app. Whether the need is big or small, vital or trivial, today, a customized mobile app is a necessity for every business!"
+            ],
+            "offer": [
+                "Competitor Analysis",
+                "Information Architechture Design",
+                "UI/UX Prototyping",
+                "Cross Platform Development",
+                "Ads and Marketing",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "Wordpress Solutions",
+            "subtitle": "WordPress now powers 40.0% of websites, with a 40.0% share in the CMS market",
+            "img": "/images/services/wordpress.jpg",
+            "url": "/wordpress-solutions",
+            "highlight": "Make Website without Coding",
+            "desc": ["WordPress is, by far, the most popular open source Content Management System (CMS), used by approximately 75 million websites.","WordPress is free to install, deploy, and upgrade. Thousands of plugins and templates power a flexible and simple interface, which reduces development costs and deployment time."],
+            "offer": [
+                "Blog Page Desgining",
+                "Landing Pages",
+                "E-commerce Development",
+                "Wordpress Themes",
+                "Plugins Solutions",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "Social Media Marketing",
+            "subtitle": "The internet has around 4.54 billion users out of which 3.725 billion are active social media users!",
+            "img": "/images/services/digital-marketing.jpg",
+            "url": "/social-media-marketing",
+            "highlight": "SMM- The Need of the Hour!",
+            "desc": ["In this online era, leveraging the power of social media is a MUST! And with correct Social Media Marketing (SMM) strategy, you get to do the same and attract even more potential customers. Many social media sites such as Facebook, LinkedIn, Twitter, Instagram, and others enjoy having a large number of users who are always keen to look for something specific.","You can easily grab the attention of your customers with a robust Social Media Marketing strategy. And with an effective SMM plan, you easily get to filter your target audience.Basically, it is the use of social media websites to market your brand and generate organic (free) traffic to your site. This eventually leads to optimizing the website’s position on search engines, and result in showing it in the first few search results."],
+            "offer": [
+                "Content Creation",
+                "Social Media Campaign",
+                "Performance Marketing",
+                "Cross Channel Promotion",
+                "Social Media Post Creation",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "Search Engine Optimization",
+            "subtitle": "Let us help you to get your business on top of google search results.",
+            "img": "/images/services/seo.jpg",
+            "url": "/search-engine-optimization",
+            "highlight": "SEO- The Game Changer!",
+            "desc": ["To get the spotlight and become the priority, your website needs to be optimized as per Google’s ranking factor! The bad news is that the Google ranking factors tend to change often and the good news is that with perfect Search Engine Optimization (SEO) strategy and accurate content.","You can maintain or improve your position with the high ranking! In short, the ultimate goal of SEO optimization is to improve your site’s rankings in search results and attract more traffic which ideally converts into customers and leads."],
+            "offer": [
+                "Keyword Research",
+                "On & Off Page SEO",
+                "Content Optimization",
+                "Increase in Web Traffic",
+                "Ranking in Google",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "Search Engine Marketing",
+            "subtitle": "89% of customers begin their b a search engine.",
+            "img": "/images/services/marketing.png",
+            "url": "/search-engine-marketing",
+            "highlight": "Lead the Digital World with SEM!",
+            "desc": ["Search Engine Marketing (SEM) paves the way for your business growth in today’s fast-paced competitive environment. It works as a descriptor that is a combination of different kinds of paid search advertising. For example, Google ads. Usually, it comes with to do, be it usage or keyword placement. And this is the reason why one needs a powerful strategy and in-depth knowledge to do it in a proper way.","With online advertising and correct content, you can successfully promote your company and increase your market worth like never before. SEM is great for brand recognition as it increases the chances of yours to be at the top of the list every time someone searches."],
+            "offer": [
+                "Competitive Analysis",
+                "Keyword Research",
+                "Campaign Setup and Launch",
+                "Reporting And Optimization",
+                "Increase Web Traffic",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "Brand Identity (Logo)",
+            "subtitle": "A unique and coloured logo increases your brand recognition chances with 80%.",
+            "img": "/images/services/branding.jpg",
+            "url": "/branding-logo-design",
+            "highlight": "A logo is nothing but the face of your brand!",
+            "desc": ["A logo is the face of a brand that people are drawn to. It is highly an expression of the values the company is providing and that’s the reason you must design your logo in such a way that it not only stands for your presence but also becomes a prominent face of your target market!","The best logo is the brand identity of a business – a symbol of your company that signifies its presence and importance worldwide. All it conveys is value and trust. When prospects watch your logo, it is their first interaction with the brand. They visualize your business or company with the Logo as your brand identity."],
+            "offer": [
+                "Brand Logo Design",
+                "Brand Manual and Nomenclature",
+                "Stationary and Space Design",
+                "Copywriting",
+                "Advertisement Creatives",
+                "Product Packaging Design"
+            ]
+        },
+        {
+            "title": "Marketing Collateral Design",
+            "subtitle": "Reach to a huge audience by Reshaping Your Message!!",
+            "img": "/images/services/mcd.jpg",
+            "url": "/marketing-collateral-design",
+            "highlight": "Create your Visual Representation",
+            "desc": ["Promoting collateral design is something that keeps great importance be it an organization’s communication plan or branding process. In today’s world, marketing collateral of any business reflects its brand identity.","Marketing collateral crafted meticulously works effectively in disseminating your brand’s message to your customers as it maintains a cohesive identity to ensure consistency in your campaign. to your Please note that having a creative collateral piece exponentially increases your brand’s image and credibility."],
+            "offer": [
+                "Communication Stratigies",
+                "Print Ads And Visual Representation",
+                "Profile,Brochures & Annual Reports",
+                "Retail and POS Design",
+                "OOH Design",
+                "Maintainance and Support"
+            ]
+        },
+        {
+            "title": "Packaging Design",
+            "subtitle": "Around 80% of the consumers say their purchasing decision is influenced by the packaging design.",
+            "img": "/images/services/packaging-design.jpg",
+            "url": "/packaging-design",
+            "highlight": "Now Judge the Book By Its Cover!",
+            "desc": ["In today’s competitive environment, product packaging design is becoming a great alternative for marketing the products and services. Always remember that the ‘catchier’ is an important design that can easily tantalize the senses of customers. With the help of great packaging, you can easily differentiate your offerings from your rivals.","Today, a large number of companies focus on package design after realizing its role in increasing sales and conversion rates.An attractive packaging design easily catches the attention of your customers even at the first glimpse and thus helps you enjoy getting a competitive edge and become the most preferred choice among your customers."],
+            "offer": [
+                "Product Knowledge & Research",
+                "Packaging Objective and Architechture",
+                "Visual Design",
+                "Mockup Design  ",
+                "User Testing/Feedback",
+                "Product Launch"
+            ]
+        },
+        {
+            "title": "Digital Strategy",
+            "subtitle": "Improve Bussiness performance and create new competitive advantages with technology",
+            "img": "/images/services/digital-strategy.jpg",
+            "url": "/digital-strategy",
+            "highlight": "MAKE DIGITAL YOUR TOOL, NOT YOUR GOAL",
+            "desc": ["Digital strategy focuses on using technology to improve business performance, whether that means creating new products or reimagining current processes. It specifies the direction an organization will take to create new competitive advantages with technology, as well as the tactics it will use to achieve these changes.","Digital strategy is not about a whole new way of viewing business. Technology has changed, but the nature of business is much the same as it always was. All the hard-won insights into successful business strategy hasn’t become irrelevant just because the playing field has become digital. Instead, those basic truisms of how a business achieves success form the underlying basis for today’s cutting-edge digital strategy."],
+            "offer": [
+                "Online Presence & Security",
+                "Digital Marketing",
+                "Customer Interaction",
+                "Mobile-based solutions",
+                "Efficiencies Through Technology",
+                "Cloud Computing"
+            ]
+        },
+        {
+            "title": "Digital Advertisement",
+            "subtitle": "Reach to large audience digitaly.Target a specific audience with us",
+            "img": "/images/services/digital-advertisement.jpg",
+            "url": "/digital-advertisement",
+            "highlight": "DIGITAL ADVERTISING REACHES YOUR TARGET AUDIENCE",
+            "desc": ["Digital advertising is a targeted, data-driven advertising strategy for reaching consumers in every stage of the buying funnel and moving them from one stage of the buying funnel to the next. From awareness to purchase, you can use digital media advertising (and online ad channels like Google) to drive revenue.","Promtes your bussiness,products,and services to generate awareness, sales and more."],
+            "offer": [
+                "Increasing brand awareness",
+                "Improving product sales",
+                "Generating qualified leads",
+                "Driving repeat purchases",
+                "Increasing contact requests"
+            ]
+        },
+        {
+            "title": "Pay Per Click",
+            "subtitle": "Make external marketing efforts including Pay Per Click (PPC)",
+            "img": "/images/services/ppc.jpg",
+            "url": "/payperclick",
+            "highlight": "Be just a Google search away",
+            "desc": ["If you have ever noticed the advertisements that appear alongside search results on Google and other search engines, you are already familiar with pay-per-click, or PPC advertising.PPC is an online advertising model in which advertisers pay each time a user clicks on one of their online ads.","Google Ads is the single most popular PPC advertising system in the world. The Ads platform enables businesses to create ads that appear on Google’s search engine and other Google properties."],
+            "offer": [
+                "Boosts Traffic to your Website",
+                "Increases Sales",
+                "Helps You Control Advertising Costs",
+                "You Only Pay for Clicks",
+                "Analyze Ad Performance in Real Time",
+                "Increase Brand Recognition"
+            ]
+        },
+        {
+            "title": "Email Marketing",
+            "subtitle": "Send a commercial message, typically to a group of people, using email.",
+            "img": "/images/services/email-marketing.jpg",
+            "url": "/email-marketing",
+            "highlight": "Make the customer the hero of your story!",
+            "desc": ["Email marketing helps you connect with your audience to promote your brand and increase sales. You can do a lot of things with emails, like sell products, share some news, improve your cart abandonment rate or tell a story.","Email marketing is the highly effective digital marketing strategy of sending emails to prospects and customers. Effective marketing emails convert prospects into customers, and turn one-time buyers into loyal, raving fans."],
+            "offer": [
+                "Mobile Optimization",
+                "Scalable Pricing",
+                "Third-party Integrations",
+                "Marketing Automation",
+                "Spam Testing",
+                "Email Surveys",
+                "Suitable Message Limits"
+            ]
+        },
+        {
+            "title": "Influencer Marketing",
+            "subtitle": "Promote your products and services by partnering with popular social media users or bloggers.",
+            "img": "/images/services/influencer-marketing.jpg",
+            "url": "/influencer-marketing",
+            "highlight": "Increases Brand Awareness and Reach",
+            "desc": ["Influencer marketing is a great way of reaching new audiences for your products or services. And when your partner with an influencer whose niche aligns with your products, you can reach an already engaged audience.","Influencer marketing works because of the high amount of trust that social influencers have built up with their following, and recommendations from them serve as a form of social proof to your brand’s potential customers."],
+            "offer": [
+                "Search and Discovery Engine ",
+                "Relationship Management",
+                "Campaign Content Management",
+                "Influencer Contracting and Compensation",
+                "Data, Analytics, and Reporting"
+            ]
+        }
+    ]
+}
