@@ -4,11 +4,7 @@ const router = express.Router()
 const bcryptjs = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
-router.get('/signin',(req,res)=>{
-    res.status(200).send("Hello lets signin")
-})
-
-router.post('/signin', async(req, res) => {
+router.post('/api/signin', async(req, res) => {
     try{
         const {email,password} = req.body
 

@@ -18,7 +18,7 @@ app.use(require('./router/signup'))
 app.use(require('./router/signin'))
 app.use(require('./router/about'))
 
-app.get('/', async(req, res) => {
+app.get('/api', async(req, res) => {
     const data = await User.find()
     res.send(data)
 })

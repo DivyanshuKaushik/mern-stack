@@ -1,40 +1,47 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom';
 
 const About = () => {
 
     const history = useHistory()
 
-    const showAbout = async()=>{
-        try{
-            const res = await fetch('/about',{
-                method:"GET",
-                headers:{
-                    Accept:"application/json",
-                    "Content-Type":"application/json"
+    const [user, setUser] = useState({})
+    const showAbout = async () => {
+        try {
+            const res = await fetch('/api/about', {
+                method: "GET",
+                headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json"
                 },
-                credentials:"include"
+                credentials: "include"
             });
             const data = await res.json()
-            console.log(data)
-            if(!res.status===200){
+            // console.log(data)
+            setUser(data)
+            if (!res.status === 200) {
                 throw new Error(res.error)
             }
 
-        }catch(e){
+        } catch (e) {
             console.log(e)
             history.push('/signin')
         }
     }
 
-    useEffect(()=>{ 
+    useEffect(() => {
         showAbout();
-         // eslint-disable-next-line
-    },[])
+        // eslint-disable-next-line
+    }, [])
 
     return (
-        <div>
-            my secret page
+        <div className="flex justify-center items-center h-64">
+            {user &&
+                <div>
+                    <h3>{user.name}</h3>
+                    <h3>{user.email}</h3>
+                    <h3>{user.phone}</h3>
+                </div>}
         </div>
     )
 }

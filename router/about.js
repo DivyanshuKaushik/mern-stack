@@ -3,7 +3,7 @@ const router = express.Router()
 const authenticate = require('../middleware/authenticate')
 
 
-router.get("/about",authenticate,(req,res)=>{
+router.get("/api/about",authenticate,(req,res)=>{
     res.status(200).send(req.user)
 })
 

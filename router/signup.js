@@ -2,11 +2,11 @@ const express = require('express')
 const User = require('../model/user')
 const router = express.Router()
 
-router.get('/signup',(req,res)=>{
-    res.status(200).send("Hello lets signup")
-})
+// router.get('/signup',(req,res)=>{
+//     res.status(200).send("Hello lets signup")
+// })
 
-router.post('/signup', async(req, res) => {
+router.post('/api/signup', async(req, res) => {
     try{
         const {name,email,phone,password,cpassword} = req.body;
 
