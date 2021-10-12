@@ -9,7 +9,7 @@
     "postinstall": "cd client && yarn",
     "build": "cd client && npm run build"
   },
-  "author": "Divyanshu Kaushik",
+  "author": "Divyanshu Kaushik", 
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
