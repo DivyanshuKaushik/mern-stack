@@ -10,6 +10,8 @@ const User = require(`${__dirname}/model/user`)
 
 const app = express()
 
+app.use(express.static("./cliend/build"))
+
 app.use(express.json());
 app.use(cookieParser());
 // app.use(bodyParser.json());
