@@ -1,6 +1,7 @@
 const express = require('express')
 const path = require('path')
 const cookieParser = require("cookie-parser");
+const cors = require('cors')
 
 require('dotenv').config()
 
@@ -15,6 +16,7 @@ app.use(express.static(path.join(__dirname, './client/build')))
 app.use(express.json());
 app.use(cookieParser());
 // app.use(bodyParser.json());
+app.use(cors())
 
 app.use(require('./router/signup'))
 app.use(require('./router/signin'))
@@ -29,9 +31,10 @@ app.get('/api', async(req, res) => {
     res.send(data)
 })
 
+const port = process.env.PORT || 5000
 
-app.listen(process.env.PORT, () => {
-    console.log(`server up at port ${process.env.PORT}`);
+app.listen(port, () => {
+    console.log(`server up at port ${port}`);
 })
 
 

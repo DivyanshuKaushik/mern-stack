@@ -34,7 +34,7 @@ router.post('/api/signin', async(req, res) => {
         res.status(200).send({message:"Login Successfull!!"})
     }
     catch(err){
-        console.log(err)
+        // console.log(err)
         res.status(400).send(err)
     }
 })
