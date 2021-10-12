@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "postinstall": "cd client && yarn",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "postbuild": "npm install && npm run build"
   },
   "author": "Divyanshu Kaushik",
   "license": "ISC",
