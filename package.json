@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "postinstall": "cd client && yarn",
     "build": "cd client && npm run build"
   },
-  "author": "Divyanshu Kaushik", 
+  "author": "Divyanshu Kaushik",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -17,6 +18,7 @@
     "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-validator": "^6.13.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.2",
     "yarn": "^1.22.15"
