@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "postinstall": "cd client && yarn",
-    "build": "cd client && yarn build"
+    "postinstall": "cd client && npm install",
+    "build": "cd client && npm run build"
   },
   "author": "Divyanshu Kaushik",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "express-validator": "^6.13.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.2",
+    "vercel": "^23.1.2",
     "yarn": "^1.22.15"
   }
 }

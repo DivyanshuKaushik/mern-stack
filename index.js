@@ -11,8 +11,6 @@ const User = require(`${__dirname}/model/user`)
 
 const app = express()
 
-app.use(express.static(path.join(__dirname, './client/build')))
-
 app.use(express.json());
 app.use(cookieParser());
 // app.use(bodyParser.json());
@@ -22,9 +20,17 @@ app.use(require('./router/signup'))
 app.use(require('./router/signin'))
 app.use(require('./router/about'))
 
-app.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname, './client/build'))
-})
+if(process.env.NODE_ENV==="production"){
+    const path = require('path')
+    app.use(express.static(path.join(__dirname, './client/build')))
+    app.get('*',(req,res)=>{
+        res.sendFile(path.resolve(__dirname, 'client','build','index.html'));
+    })
+}
+
+// app.get('*',(req,res)=>{
+//     res.sendFile(path.join(__dirname, './client/build'))
+// })
 
 app.get('/api', async(req, res) => {
     const data = await User.find()
